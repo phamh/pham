@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+font-family:"Trebuchet MS";
+font-size:11px;
+background-color:#F2EFED;
+}
+
+form{
+margin:0;
+padding:0;
+}
+
+table#newItem{
+
+}
+
+table#newItem th{
+text-align:left
+
+}
+
+table#newItem th, table#newItem td{
+height:15px;
+line-height:15px;
+border:0px solid gray;
+
+}
+
+
+input.button{
+font-size:11px;
+}
+
+div#bodyContent{
+width: 1050px;
+height:auto;
+border:0px solid gray;
+}
+
+div#leftContent, div#centerContent, div#rightContent{
+width:31%;
+height:auto;
+float:left;
+border:1px solid gray;
+margin-right:5px;
+margin-bottom:5px;
+}
+
+div#centerContent{
+
+}
+
+div#rightContent{
+
+}
+
+table#listItem{
+width:100%;
+border-collapse:collapse;
+border:1px solid gray;
+
+
+}
+
+table#listItem th{
+text-align:left;
+background-color:#ccc;
+text-align:center;
+border:1px solid gray;
+}
+
+table#listItem th, table#listItem td{
+height:15px;
+line-height:15px;
+border:0px solid gray;
+}
+
+table#listItem td{
+border-bottom:1px dotted gray;
+}
+
+table#listItem td{
+padding-left:2px;
+padding-right:2px;
+}
+
+
+table#listItem td a,table#listItem td a:link, table#listItem td a:visited{
+text-decoration:none;
+color:blue;
+}
+
+/*HILIGH THE ROW WHEN MOUSE MOVE OVER*/
+table#listItem tr:hover, table#listItem tr.hilite {
+background-color: #EFE6C5;
+color: #000000;
+cursor:normal;
+}
+
+table tr.r1 {
+	background-color: #D8E1ED ;
+	color: black;
+}
+
+table tr.r2 {
+	background-color:white  ;
+
+}
+
+table tr.r3 {
+	background-color:#F8F7F5 ;
+
+}
+
+table tr.gray {
+	background-color:#CCCCCC ;
+
+}
+
+table tr.darkgray {
+	background-color:#999 ;
+
+}
+
+table tr.lightgrey {
+	background-color:#EAEAEA ;
+
+}
+table tr.gold {
+background-color:#CC9933 ;
+
+}
+
+div.box{
+width:100%;
+margin-bottom:5px;
+height:auto;
+border:0px solid red;
+}
+
+table.content{
+border-collapse:separate;
+
+}
+table.content td{
+border:1px solid gray;
+background-color:white;
+
+}	
